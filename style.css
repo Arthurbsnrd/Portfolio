@@ -241,7 +241,7 @@ a.bulle:hover span {
 	background-color: white;
 }
 #BTS{
-	text-decoration: none;
+	text-decoration: underline #F3B765;
 	left: 0px;
 	top: 0px;
 }
