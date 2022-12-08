@@ -102,7 +102,7 @@ li{
 }
 .grid-container-2{
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto;
 	padding: 10px;
 	margin-left: 10px;
 	column-gap: 200px;
@@ -155,16 +155,15 @@ h2{
 	font-size: 2vw;
 	text-decoration: none;
 }
-button {
+.presentation .grid-container .grid-item button {
     background-color: inherit;
-	padding-left: -2710px;
 	border: 2px;
 	font-size: 20px;
 	font-weight: bold;
 	color:#F3B765 ;
 	border-radius: 8px;
 }
-button:hover {
+.presentation .grid-container .grid-item button:hover {
 	background-color:#F3B765;
 	color: #1A1325;
 }
@@ -212,7 +211,7 @@ footer {
 	width: 1440px;
 	height: 116px;
 	left: 0px;
-	top: 4000px;
+	top: 2600px;
  }
 #footer1{
 	display: flex;
@@ -276,26 +275,4 @@ img.experiences{
 #SIO{
 	text-align: center;
 	left: 50px;
-}
-.grid-item-4 a button{
-	margin-left: 215px;
-}
-.grid-container-4 {
-	display: contents;
-	grid-template-columns: auto auto;
-	padding: 10px;
-	margin-left: 10px;
-	column-gap: 200px;
-	position: relative;
-	border-radius: 8px;
-}
-.grid-item-4 {
-	border: 3px solid #bdbdbd !important;
-	padding: 20px;
-	font-size: 30px;
-	text-align: left;
-	position:relative;
-	border-radius: 8px;
-	box-sizing: border-box;
-	margin-bottom: 40px;
 }
